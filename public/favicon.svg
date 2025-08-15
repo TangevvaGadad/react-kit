@@ -1,0 +1,23 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <circle cx="16" cy="16" r="16" fill="url(#bg)"/>
+  
+  <!-- React-like atom symbol -->
+  <circle cx="16" cy="16" r="6" fill="none" stroke="white" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Orbital rings -->
+  <ellipse cx="16" cy="16" rx="12" ry="4" fill="none" stroke="white" stroke-width="1.5" opacity="0.6" transform="rotate(0 16 16)"/>
+  <ellipse cx="16" cy="16" rx="12" ry="4" fill="none" stroke="white" stroke-width="1.5" opacity="0.6" transform="rotate(60 16 16)"/>
+  <ellipse cx="16" cy="16" rx="12" ry="4" fill="none" stroke="white" stroke-width="1.5" opacity="0.6" transform="rotate(120 16 16)"/>
+  
+  <!-- Center dot -->
+  <circle cx="16" cy="16" r="2" fill="white"/>
+</svg>
