@@ -1,0 +1,1 @@
+const e={parameters:{actions:{argTypesRegex:"^on[A-Z].*"},controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}},docs:{toc:!0}},globalTypes:{theme:{description:"Global theme for components",defaultValue:"light",toolbar:{title:"Theme",icon:"paintbrush",items:["light","dark"],showName:!0,dynamicTitle:!0}}}};export{e as default};
